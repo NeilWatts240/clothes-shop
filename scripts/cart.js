@@ -16,6 +16,7 @@ document.addEventListener('DOMContentLoaded', () => {
         let newDefaultPic = document.createElement('img');
         newDefaultMainPic.src = data[0].image[0];
         newDefaultPic.src = data[0].image[0];
+
         newDefaultPic.classList.add('active-item');
         cartMainPicBlock.append(newDefaultMainPic);
         cartPicsBlock.append(newDefaultPic);
@@ -38,7 +39,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
             newProduct.classList.add('product-item');
             newProduct.innerHTML = `<img src="${data[val].image[0]}" alt="">`;
-            console.log(newProduct);
 
             for (let pic = 1; pic < data[val].image.length; pic++) {
                 let newPic = document.createElement('img');
