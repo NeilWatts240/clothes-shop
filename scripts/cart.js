@@ -43,7 +43,7 @@ document.addEventListener('DOMContentLoaded', () => {
             for (let pic = 1; pic < data[val].image.length; pic++) {
                 let newPic = document.createElement('img');
 
-                newPic.src = data[val].image[pic];
+                newPic.src = (data[val].image[pic]).slice(-19);
                 newPic.style.display = 'none';
 
                 if (pic < data[val].image.length) {
