@@ -37,16 +37,10 @@ document.addEventListener('DOMContentLoaded', () => {
             newProduct.setAttribute('data-rating', `${data[val].rating}`);
 
             newProduct.classList.add('product-item');
-            newProduct.innerHTML = `<img src="./${data[val].image[0]}" alt="">`;
-
-
+            newProduct.innerHTML = `<img src="${data[val].image[0]}" alt="">`;
+            console.log(newProduct);
 
             for (let pic = 1; pic < data[val].image.length; pic++) {
-
-
-
-
-
                 let newPic = document.createElement('img');
 
                 newPic.src = data[val].image[pic];
