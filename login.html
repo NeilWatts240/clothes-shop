@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/login.css">
+    <title>Login</title>
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="header-container">
+
+            <a href="index.html ">
+                <div class="header-brand">
+                    <img class="header-logo logo" src="images/logo-shirt.png" alt="">
+                    <div class="header-storename storename">
+                        <p>FASHIONHOLIC</p>
+                    </div>
+                </div>
+            </a>
+
+            <div class="header-search">
+                <input class="header-search-input" disabled="true" type="text" placeholder="Search...">
+            </div>
+
+            <div class="promocode">
+                <p>SEASONAL DISCOUNT 20%! USE PROMO CODE 'GET20' TO GET IT!</p>
+            </div>
+
+            <div class="header-user">
+                <img class="bell" src="images/bell.png" alt="">
+                <a href="login.html">
+                    <div class="unknownuser">
+                        <img src="/images/Male User.png" alt="">
+                    </div>
+                </a>
+            </div>
+
+        </div> <!-- header-container -->
+    </header> <!-- header -->
+
+    <main class="container login-container">
+
+        <div class="slider">
+            <div class="slider-content" id="all-slides">
+
+                <li class="slide slide-active"><img src="images/slide-img/fashion-01.jpg" alt="/"></li>
+                <li class="slide"><img src="images/slide-img/fashion-02.jpg" alt="/"></li>
+                <li class="slide"><img src="images/slide-img/fashion-03.jpg" alt="/"></li>
+                <li class="slide"><img src="images/slide-img/fashion-04.jpg" alt="/"></li>
+                <li class="slide"><img src="images/slide-img/fashion-05.jpg" alt="/"></li>
+
+                <a href="#" class="slider-btn prev" id="arrow-left"></a>
+                <a href="#" class="slider-btn next" id="arrow-right"></a>
+
+                <ul class="slider-dots"></ul>
+
+            </div>
+        </div>
+
+        <div class="login-chapter login-active">
+
+            <div class="login-image">
+                <img src="/images/Saly-35.png" alt="">
+            </div>
+
+            <div class="login">
+                <h1>Login</h1>
+                <form class="login-form" action="/" method="POST">
+                    <input class="form-input input-username" type="text" placeholder="Email or username">
+                    <br>
+                    <input class="form-input input-password" type="password" placeholder="Password">
+                    <br>
+                    <button class="form-input form-login-button">LOGIN</button>
+                </form>
+
+                <div class="login-footer">
+                    <a href="#">
+                        <p> <span class="blue-text-color">Forgot password?</span>
+                    </a>
+
+                    <p> Or login with </p>
+
+                    <a href="#">
+                        <!-- google img -->
+                    </a>
+
+                    <a href="#">
+                        <!-- facebook img -->
+                    </a>
+
+                    <p>Don't have an account yet? <span class="blue-text-color signup"><a href="#">Sign UP</a> </span>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="login-chapter">
+
+            <div class="login-image">
+                <img src="/images/Saly-45.png" alt="">
+            </div>
+
+            <div class="login">
+                <h1>Register</h1>
+                <form class="login-form" action="/" method="POST">
+                    <input class="form-input input-email" type="text" placeholder="Email">
+                    <br>
+                    <input class="form-input input-username" type="text" placeholder="Username">
+                    <br>
+                    <input class="form-input input-password" type="password" placeholder="Password">
+                    <br>
+                    <input class="form-input input-password" type="password" placeholder="Confirm Password">
+                    <br>
+                    <button class="form-input form-login-button">REGISTER</button>
+                </form>
+
+                <div class="login-footer">
+
+                    <a href="#">
+                        <p> <span class="blue-text-color">Forgot password?</span>
+                    </a>
+
+                    <p> Or login with </p>
+
+                    <a href="#">
+                        <!-- google img -->
+                    </a>
+
+                    <a href="#">
+                        <!-- facebook img -->
+                    </a>
+
+                    <p>Already have an account?<span class="blue-text-color signup"><a href="#">Login</a> </span></p>
+
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-container">
+
+            <a href="index.html">
+                <div class="footer-brand footer-item">
+                    <img class="footer-logo logo" src="images/logo-shirt.png" alt="">
+                    <div class="footer-storename storename">
+                        <p>FASHIONHOLIC</p>
+                        <span>For Your Dayly Outfit</span>
+                    </div>
+                </div>
+            </a>
+
+            <div class="footer-service footer-item">
+                <h1>SERVICE</h1>
+                <p>Products</p>
+                <p>Contact Us</p>
+            </div>
+
+            <div class="footer-support footer-item">
+                <h1>SUPPORT</h1>
+                <a href="#">About Fashionholic.com</a>
+                <br>
+                <a href="#">Privacy Policy & Terms</a>
+            </div>
+
+            <div class="follow-us footer-item">
+                <h1>FOLLOW US</h1>
+                <a href="#">Instagram</a>
+                <br>
+                <a href="#">Facebook</a>
+            </div>
+
+        </div>
+
+    </footer>
+
+    <script src="./scripts/login.js"></script>
+</body>
+
+</html>

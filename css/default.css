@@ -1,0 +1,61 @@
+html {
+    font-size: 15px;
+}
+
+body {
+    text-align: center;
+    position: relative;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.6;
+    background: #F3F3F7;
+    cursor: default;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+h1 {
+    font-weight: 500;
+}
+
+p {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    position: relative;
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 70px;
+}
+
+.logo {
+    border-radius: 50%;
+    -webkit-transition: -webkit-transform .4s ease-in-out;
+    transition: transform .4s ease-in-out;
+}
+
+.logo:hover {
+    -webkit-transform: rotate(360deg);
+    /* Градусы поворота можно изменить по необходимости */
+    transform: rotate(360deg);
+    /* Градусы поворота можно изменить по необходимости */
+}

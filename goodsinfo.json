@@ -1,0 +1,520 @@
+[
+    {
+        "id": "1",
+        "title": "Red evening dress",
+        "category": "dress",
+        "sex": "female",
+        "color": "red",
+        "price": "80",
+        "rating": "4.4",
+        "image": [
+            "images/goods/11.jpg",
+            "images/goods/12.jpg"
+        ]
+    },
+    {
+        "id": "2",
+        "title": "Black evening dress",
+        "category": "dress",
+        "sex": "female",
+        "color": "black",
+        "price": "90",
+        "rating": "4.1",
+        "image": [
+            "images/goods/13.jpg",
+            "images/goods/14.jpg"
+        ]
+    },
+    {
+        "id": "3",
+        "title": "Сasual pink sweater",
+        "category": "sweater",
+        "sex": "female",
+        "color": "pink",
+        "price": "50",
+        "rating": "4.8",
+        "image": [
+            "images/goods/15.jpg"
+        ]
+    },
+    {
+        "id": "4",
+        "title": "Formal gray T-shirt",
+        "category": "tshirt",
+        "sex": "female",
+        "color": "gray",
+        "price": "50",
+        "rating": "4.9",
+        "image": [
+            "images/goods/16.jpg",
+            "images/goods/17.jpg"
+        ]
+    },
+    {
+        "id": "5",
+        "title": "Autumn coat",
+        "category": "coat",
+        "sex": "female",
+        "color": "red",
+        "price": "120",
+        "rating": "3.9",
+        "image": [
+            "images/goods/18.jpg",
+            "images/goods/19.jpg"
+        ]
+    },
+    {
+        "id": "6",
+        "title": "Autumn coat",
+        "category": "coat",
+        "sex": "female",
+        "color": "blue",
+        "price": "140",
+        "rating": "4.9",
+        "image": [
+            "images/goods/20.jpg",
+            "images/goods/21.jpg"
+        ]
+    },
+    {
+        "id": "7",
+        "title": "Black outfit",
+        "category": "outfit",
+        "sex": "female",
+        "color": "black",
+        "price": "130",
+        "rating": "4.1",
+        "image": [
+            "images/goods/22.jpg",
+            "images/goods/23.jpg"
+        ]
+    },
+    {
+        "id": "8",
+        "title": "Black usual T-shirt",
+        "category": "tshirt",
+        "sex": "female",
+        "color": "black",
+        "price": "65",
+        "rating": "3.8",
+        "image": [
+            "images/goods/24.jpg"
+        ]
+    },
+    {
+        "id": "9",
+        "title": "T-shirt with a pattern",
+        "category": "tshirt",
+        "sex": "female",
+        "color": "white",
+        "price": "60",
+        "rating": "4.7",
+        "image": [
+            "images/goods/25.jpg"
+        ]
+    },
+    {
+        "id": "10",
+        "title": "Beige unisex sweater",
+        "category": "sweater",
+        "sex": "female, male",
+        "color": "beige",
+        "price": "100",
+        "rating": "4.4",
+        "image": [
+            "images/goods/26.jpg",
+            "images/goods/27.jpg",
+            "images/goods/28.jpg"
+        ]
+    },
+    {
+        "id": "11",
+        "title": "Gray unisex sweater",
+        "category": "sweater",
+        "sex": "female, male",
+        "color": "gray",
+        "price": "100",
+        "rating": "4.4",
+        "image": [
+            "images/goods/29.jpg",
+            "images/goods/30.jpg"
+        ]
+    },
+    {
+        "id": "12",
+        "title": "Bright blue unisex sweater",
+        "category": "sweater",
+        "sex": "female",
+        "color": "blue",
+        "price": "100",
+        "rating": "4.2",
+        "image": [
+            "images/goods/31.jpg",
+            "images/goods/32.jpg",
+            "images/goods/33.jpg"
+        ]
+    },
+    {
+        "id": "13",
+        "title": "Black unisex sweater",
+        "category": "sweater",
+        "sex": "female, male",
+        "color": "black",
+        "price": "100",
+        "rating": "4.8",
+        "image": [
+            "images/goods/36.jpg",
+            "images/goods/37.jpg"
+        ]
+    },
+    {
+        "id": "14",
+        "title": "Yellow evening dress",
+        "category": "dress",
+        "sex": "female, male",
+        "color": "yellow",
+        "price": "100",
+        "rating": "4.8",
+        "image": [
+            "images/goods/38.jpg",
+            "images/goods/39.jpg",
+            "images/goods/40.jpg"
+        ]
+    },
+    {
+        "id": "15",
+        "title": "Brown formal suit",
+        "category": "suit",
+        "sex": "female",
+        "color": "brown",
+        "price": "110",
+        "rating": "4.9",
+        "image": [
+            "images/goods/41.jpg",
+            "images/goods/42.jpg"
+        ]
+    },
+    {
+        "id": "16",
+        "title": "Plaid suit",
+        "category": "suit",
+        "sex": "female",
+        "color": "orange",
+        "price": "120",
+        "rating": "3.7",
+        "image": [
+            "images/goods/43.jpg",
+            "images/goods/44.jpg"
+        ]
+    },
+    {
+        "id": "17",
+        "title": "Casual printed T-shirt",
+        "category": "tshirt",
+        "sex": "female",
+        "color": "black",
+        "price": "50",
+        "rating": "4.2",
+        "image": [
+            "images/goods/45.jpg",
+            "images/goods/46.jpg"
+        ]
+    },
+    {
+        "id": "18",
+        "title": "Strict autumn suit",
+        "category": "suit",
+        "sex": "female",
+        "color": "gray",
+        "price": "170",
+        "rating": "4.5",
+        "image": [
+            "images/goods/47.jpg",
+            "images/goods/48.jpg"
+        ]
+    },
+    {
+        "id": "19",
+        "title": "White casual shirt",
+        "category": "shirt",
+        "sex": "female",
+        "color": "white",
+        "price": "80",
+        "rating": "4.6",
+        "image": [
+            "images/goods/49.jpg",
+            "images/goods/50.jpg"
+        ]
+    },
+    {
+        "id": "20",
+        "title": "White casual shirt",
+        "category": "shirt",
+        "sex": "female",
+        "color": "white",
+        "price": "90",
+        "rating": "4.6",
+        "image": [
+            "images/goods/51.jpg",
+            "images/goods/52.jpg"
+        ]
+    },
+    {
+        "id": "21",
+        "title": "Black suit",
+        "category": "suit",
+        "sex": "female",
+        "color": "black",
+        "price": "100",
+        "rating": "4.1",
+        "image": [
+            "images/goods/53.jpg"
+        ]
+    },
+    {
+        "id": "22",
+        "title": "Black winter coat",
+        "category": "coat",
+        "sex": "female",
+        "color": "black",
+        "price": "170",
+        "rating": "4.4",
+        "image": [
+            "images/goods/54.jpg",
+            "images/goods/55.jpg"
+        ]
+    },
+    {
+        "id": "23",
+        "title": "Male dark blue jacket",
+        "category": "jacket",
+        "sex": "male",
+        "color": "blue",
+        "price": "150",
+        "rating": "4.8",
+        "image": [
+            "images/goods/56.jpg"
+        ]
+    },
+    {
+        "id": "24",
+        "title": "Formal dark blue suit",
+        "category": "suit",
+        "sex": "male",
+        "color": "blue",
+        "price": "120",
+        "rating": "4.8",
+        "image": [
+            "images/goods/57.jpg"
+        ]
+    },
+    {
+        "id": "25",
+        "title": "Black leather jacket",
+        "category": "jacket",
+        "sex": "male",
+        "color": "black",
+        "price": "140",
+        "rating": "4.7",
+        "image": [
+            "images/goods/58.jpg"
+        ]
+    },
+    {
+        "id": "26",
+        "title": "Men's gray polo",
+        "category": "polo",
+        "sex": "male",
+        "color": "gray",
+        "price": "75",
+        "rating": "3.6",
+        "image": [
+            "images/goods/59.jpg"
+        ]
+    },
+    {
+        "id": "27",
+        "title": "Burgundy suit",
+        "category": "suit",
+        "sex": "male",
+        "color": "red",
+        "price": "140",
+        "rating": "4.4",
+        "image": [
+            "images/goods/60.jpg"
+        ]
+    },
+    {
+        "id": "28",
+        "title": "Dark blue man's jacket",
+        "category": "jacket",
+        "sex": "male",
+        "color": "blue",
+        "price": "100",
+        "rating": "3.9",
+        "image": [
+            "images/goods/61.jpg"
+        ]
+    },
+    {
+        "id": "29",
+        "title": "Men's formal suit",
+        "category": "suit",
+        "sex": "male",
+        "color": "blue",
+        "price": "159",
+        "rating": "4.9",
+        "image": [
+            "images/goods/62.jpg",
+            "images/goods/63.jpg"
+        ]
+    },
+    {
+        "id": "30",
+        "title": "Brown jacket",
+        "category": "jacket",
+        "sex": "male",
+        "color": "brown",
+        "price": "100",
+        "rating": "4.1",
+        "image": [
+            "images/goods/64.jpg"
+        ]
+    },
+    {
+        "id": "31",
+        "title": "Men's suit",
+        "category": "suit",
+        "sex": "male",
+        "color": "blue",
+        "price": "110",
+        "rating": "4.0",
+        "image": [
+            "images/goods/66.jpg",
+            "images/goods/65.jpg"
+        ]
+    },
+    {
+        "id": "32",
+        "title": "Sand color suit",
+        "category": "suit",
+        "sex": "male",
+        "color": "gray",
+        "price": "130",
+        "rating": "4.5",
+        "image": [
+            "images/goods/67.jpg"
+        ]
+    },
+    {
+        "id": "33",
+        "title": "Men's sport suit",
+        "category": "suit",
+        "sex": "male",
+        "color": "gray",
+        "price": "90",
+        "rating": "4.2",
+        "image": [
+            "images/goods/68.jpg"
+        ]
+    },
+    {
+        "id": "34",
+        "title": "Men's bomber jacket",
+        "category": "jacket",
+        "sex": "male",
+        "color": "blue",
+        "price": "90",
+        "rating": "4.3",
+        "image": [
+            "images/goods/69.jpg"
+        ]
+    },
+    {
+        "id": "35",
+        "title": "Women's fur coat",
+        "category": "coat",
+        "sex": "female",
+        "color": "gray",
+        "price": "290",
+        "rating": "4.2",
+        "image": [
+            "images/goods/70.jpg"
+        ]
+    },
+    {
+        "id": "36",
+        "title": "Brown fur coat",
+        "category": "coat",
+        "sex": "female",
+        "color": "brown",
+        "price": "360",
+        "rating": "4.1",
+        "image": [
+            "images/goods/71.jpg",
+            "images/goods/73.jpg",
+            "images/goods/79.jpg"
+        ]
+    },
+    {
+        "id": "37",
+        "title": "Long fur coat",
+        "category": "coat",
+        "sex": "female",
+        "color": "brown",
+        "price": "80",
+        "rating": "4.5",
+        "image": [
+            "images/goods/72.jpg",
+            "images/goods/78.jpg"
+        ]
+    },
+    {
+        "id": "38",
+        "title": "White women's fur coat",
+        "category": "coat",
+        "sex": "female",
+        "color": "white",
+        "price": "290",
+        "rating": "4.8",
+        "image": [
+            "images/goods/74.jpg"
+        ]
+    },
+    {
+        "id": "39",
+        "title": "Gray printed fur coat",
+        "category": "coat",
+        "sex": "female",
+        "color": "gray",
+        "price": "260",
+        "rating": "3.9",
+        "image": [
+            "images/goods/75.jpg"
+        ]
+    },
+    {
+        "id": "40",
+        "title": "Woman's winter fur coat",
+        "category": "coat",
+        "sex": "female",
+        "color": "brown",
+        "price": "260",
+        "rating": "4.2",
+        "image": [
+            "images/goods/76.jpg"
+        ]
+    },
+    {
+        "id": "41",
+        "title": "Winter white fur coat",
+        "category": "coat",
+        "sex": "female",
+        "color": "white",
+        "price": "380",
+        "rating": "4.9",
+        "image": [
+            "images/goods/77.jpg"
+        ]
+    }
+]

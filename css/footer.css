@@ -1,0 +1,41 @@
+.footer {
+    position: absolute;
+    z-index: 2;
+
+    background-color: white;
+    font-weight: 400;
+    width: 100%;
+    cursor: default;
+}
+
+.footer-container {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-brand {
+    display: flex;
+}
+
+.footer-logo {
+    height: 90px;
+
+}
+
+.footer-storename {
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.footer-storename p {
+    margin-bottom: 10px;
+}
+
+.footer-item {
+    font-weight: 500;
+    font-size: 15px;
+    position: relative;
+    text-align: left;
+}

@@ -1,0 +1,120 @@
+.header {
+    top: 0;
+    z-index: 1;
+    position: fixed;
+    width: 100%;
+    height: 70px;
+    background-color: white;
+}
+
+.header-container {
+
+    height: 70px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-brand {
+    padding-left: 20px;
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-logo {
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+}
+
+.header-storename {
+    z-index: 1;
+    margin-left: 10px;
+
+}
+
+.storename p {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    color: #97404C;
+}
+
+.header-search {
+    z-index: 2;
+    margin-left: 20%;
+    width: 13%;
+    height: 100%;
+}
+
+.header-search-input:active,
+:hover,
+:focus {
+    outline: 0;
+    outline-offset: 0;
+}
+
+textarea::placeholder {
+    color: rgba(169, 169, 169, 0.83);
+}
+
+.header-search-input,
+.textarea {
+    width: 100%;
+    height: 100%;
+    padding: 12px 18px;
+    font-family: inherit;
+    color: grey;
+    font-size: 15px;
+    border: 0.1px solid rgba(169, 169, 169, 0.83);
+    border-radius: 100px;
+}
+
+.header-user {
+    z-index: 2;
+    display: flex;
+    padding-right: 20px;
+    cursor: pointer;
+}
+
+.bell {
+    transform: rotate(-45deg);
+}
+
+.unknownuser {
+    padding-left: 50px;
+}
+
+
+.unknownuser img {
+    margin-top: -5px;
+    height: 50px;
+    width: 50px;
+}
+
+.promocode {
+    width: 15%;
+    background-color: rgb(246, 106, 74);
+    border-radius: 50px;
+}
+
+.promocode p {
+    width: 700px;
+    display: inline-block;
+    padding-top: 3px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 600;
+    transform: translate(-200%);
+    animation: anim 20s forwards;
+}
+
+@keyframes anim {
+    0% {
+        transform: translate(80%);
+    }
+}
