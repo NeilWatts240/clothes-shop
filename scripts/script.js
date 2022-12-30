@@ -379,9 +379,5 @@ document.addEventListener('DOMContentLoaded', () => {
         });
 
     promocode();
-
-    try {
-        slider('.slide', '.slider-content', '.slider-dots', 'dot-active', 'slide-active', 'dot', '.slider-btn', '#arrow-left', '#arrow-right');
-    } catch { }
 })
 
