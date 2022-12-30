@@ -250,8 +250,7 @@ document.addEventListener('DOMContentLoaded', () => {
                             };
 
                         for (let i = 0; i < img.length; i++) {
-
-                            let correctPic = (img[i].src).slice(-19);
+                            let correctPic = img[i].src;
                             itemData.image[i] = correctPic;
                         }
 

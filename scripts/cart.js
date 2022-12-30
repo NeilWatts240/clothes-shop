@@ -14,8 +14,8 @@ document.addEventListener('DOMContentLoaded', () => {
         let cartMainPicBlock = document.querySelector('.cart-info-item');
         let newDefaultMainPic = document.createElement('img');
         let newDefaultPic = document.createElement('img');
-        newDefaultMainPic.src = data[0].image[0];
-        newDefaultPic.src = data[0].image[0];
+        newDefaultMainPic.src = (data[0].image[0]).slice(-19);
+        newDefaultPic.src = (data[0].image[0]).slice(-19);
 
         newDefaultPic.classList.add('active-item');
         cartMainPicBlock.append(newDefaultMainPic);
@@ -38,7 +38,7 @@ document.addEventListener('DOMContentLoaded', () => {
             newProduct.setAttribute('data-rating', `${data[val].rating}`);
 
             newProduct.classList.add('product-item');
-            newProduct.innerHTML = `<img src="${data[val].image[0]}" alt="">`;
+            newProduct.innerHTML = `<img src="${(data[val].image[0]).slice(-19)}" alt="">`;
 
             for (let pic = 1; pic < data[val].image.length; pic++) {
                 let newPic = document.createElement('img');
